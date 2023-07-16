@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.outer_one {
+    background-color: #343434;
+    border: solid 2px black;
+}
+
+.inner_one {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 40px 30px 20px 10px;
+}
+
+.outer_two {
+    background-color: lightgray;
+    border: solid 2px black;
+}
+
+.inner_two {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    padding: 40px 20px;
+    border: solid 5px black;
+    margin: 10px;
+    /*text-align: center;*/
+    justify-content: center;
+    align-items: center;
+}
